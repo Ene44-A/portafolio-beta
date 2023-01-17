@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.6);
-  padding: 20px;
+  padding: 40px 40px;
   border-radius: 10px;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
@@ -25,16 +25,35 @@
 .photo-hero{
   margin: 10px;
   content: "";
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   background: url(https://images.unsplash.com/photo-1603574670812-d24560880210?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
   background-position: center;
   background-size: cover;
   border-radius: 50%;
 }
 .title-hero{
+  font-size: 20px;
   margin: 10px;
 }
+.title-hero>p{
+  font-size: 20px;
+}
 span{
-  color: lime;
+  color: rgb(7, 200, 7);
+}
+@media (max-width: 600px) {
+  .card-cont{
+    padding: 30px 20px;
+  }
+  .photo-hero{
+    width: 100px;
+    height: 100px;
+  }
+  .title-hero>h3{
+    font-size: 20px;
+  }
+  .title-hero>p{
+    font-size: 15px;
+  }
 }

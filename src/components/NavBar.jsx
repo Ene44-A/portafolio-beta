@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/navBar.css";
-import { AiOutlineMenu, AiOutlineLaptop } from "react-icons/ai";
+import { SlPaperClip, SlMenu } from "react-icons/sl";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -10,7 +10,7 @@ const NavBar = () => {
     <nav className="nav-cont">
       <di className="nav-bar-main">
         <div className="title-nav">
-          <AiOutlineLaptop />
+          <SlPaperClip />
           <h1 className="title-h1">Andrés García</h1>
         </div>
         <button
@@ -20,7 +20,7 @@ const NavBar = () => {
             console.log("action button");
           }}
         >
-          <AiOutlineMenu />
+          <SlMenu />
         </button>
       </di>
 
