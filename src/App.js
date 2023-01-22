@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
 import { motion } from "framer-motion";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       </header>
       <About />
       <Services />
+      <Portfolio />
     </div>
   );
 }

@@ -15,7 +15,7 @@ const Services = () => {
             whileInView={{opacity:1}}
             viewport={{once:true, amount:0.8}}
              className='service-cont'>
-                <div className='icon-service'><SlLike /></div> 
+                <div className='icon-service'><SlLike /></div>
                 <h4>Fully Responsive</h4>
                 <p>You site will display properly on any divice, including desktop computers, tablets and mobile phone.</p>
             </motion.div>
